@@ -1,0 +1,7 @@
+dbDevelopment:
+  user: "postgres"
+  password: "qwerty"
+  host: "localhost"
+  port: "5432"
+  dbname: "codewarriors"
+  sslmode: "disable"
