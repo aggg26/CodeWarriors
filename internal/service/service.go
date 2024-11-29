@@ -16,5 +16,7 @@ type Service struct {
 }
 
 func NewService(db *sql.DB) *Service {
-	return &Service{}
+	return &Service{
+		Authorization: NewAuthorizationService(db),
+	}
 }
