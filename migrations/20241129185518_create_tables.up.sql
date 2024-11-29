@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    role VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL UNIQUE
+);
